@@ -1,0 +1,143 @@
+/* Admin Theme Variables - Light Mode (WCAG AA compliant) */
+:root {
+  --admin-bg-primary: #ffffff;
+  --admin-bg-secondary: #f8fafc;
+  --admin-bg-tertiary: #f1f5f9;
+  --admin-text-primary: #0f172a;
+  --admin-text-secondary: #334155;
+  --admin-text-muted: #64748b;
+  --admin-border: #e2e8f0;
+  --admin-accent: #0ea5e9;
+  --admin-accent-hover: #0284c7;
+  --admin-success: #059669;
+  --admin-warning: #d97706;
+  --admin-error: #dc2626;
+}
+
+/* Dark mode admin theme variables (WCAG AA compliant) */
+.dark {
+  --admin-bg-primary: #0f172a;
+  --admin-bg-secondary: #1e293b;
+  --admin-bg-tertiary: #334155;
+  --admin-text-primary: #f8fafc;
+  --admin-text-secondary: #cbd5e1;
+  --admin-text-muted: #94a3b8;
+  --admin-border: #475569;
+  --admin-accent: #3b82f6;
+  --admin-accent-hover: #2563eb;
+  --admin-success: #10b981;
+  --admin-warning: #f59e0b;
+  --admin-error: #ef4444;
+}
+
+/* Admin-specific styles */
+.admin-card {
+  background: var(--admin-bg-primary);
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text-primary);
+}
+
+.admin-input {
+  background: var(--admin-bg-primary);
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text-primary);
+}
+
+.admin-input::placeholder {
+  color: var(--admin-text-muted);
+}
+
+.admin-button {
+  background: var(--admin-accent);
+  color: white;
+  border: 1px solid var(--admin-accent);
+}
+
+.admin-button:hover {
+  background: var(--admin-accent-hover);
+}
+
+/* Ensure proper contrast for admin elements */
+.admin-text-primary {
+  color: var(--admin-text-primary);
+}
+
+.admin-text-secondary {
+  color: var(--admin-text-secondary);
+}
+
+.admin-text-muted {
+  color: var(--admin-text-muted);
+}
+
+.admin-bg-primary {
+  background: var(--admin-bg-primary);
+}
+
+.admin-bg-secondary {
+  background: var(--admin-bg-secondary);
+}
+
+.admin-bg-tertiary {
+  background: var(--admin-bg-tertiary);
+}
+
+.admin-border {
+  border-color: var(--admin-border);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --admin-text-primary: #000000;
+    --admin-text-secondary: #333333;
+    --admin-text-muted: #666666;
+    --admin-border: #000000;
+  }
+
+  .dark {
+    --admin-text-primary: #ffffff;
+    --admin-text-secondary: #cccccc;
+    --admin-text-muted: #999999;
+    --admin-border: #ffffff;
+  }
+}
+
+/* TipTap Rich Text Editor Styles */
+.ProseMirror ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin: 0.5rem 0 !important;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal !important;
+  padding-left: 1.5rem !important;
+  margin: 0.5rem 0 !important;
+}
+
+.ProseMirror li {
+  margin-bottom: 0.25rem !important;
+  display: list-item !important;
+}
+
+.ProseMirror li::marker {
+  color: #374151 !important;
+}
+
+.ProseMirror ul li::marker {
+  color: #374151 !important;
+}
+
+.ProseMirror ol li::marker {
+  color: #374151 !important;
+}
+
+/* Ensure bullet points are visible */
+.ProseMirror ul li {
+  list-style-type: disc !important;
+}
+
+.ProseMirror ol li {
+  list-style-type: decimal !important;
+}

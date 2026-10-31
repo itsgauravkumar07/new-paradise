@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  nextjs-app:
+    image: paradiseyatra/paradise-yatra-frontend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      tags:
+        - paradiseyatra/paradise-yatra-frontend:latest
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - HOSTNAME=0.0.0.0
+      - NEXT_PUBLIC_BACKEND_URL=http://147.79.70.197:5000/
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

@@ -1,0 +1,1310 @@
+﻿
+> my-next-app@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+- Experiments (use with caution):
+  Γ£ô optimizeCss
+  ┬╖ optimizePackageImports
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 22.8s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/71) ...
+Tour Types API - Backend URL: http://localhost:5001
+  Generating static pages using 11 workers (17/71) 
+  Generating static pages using 11 workers (35/71) 
+  Generating static pages using 11 workers (53/71) 
+Tour types API - Data status: {
+  backendUrl: 'http://localhost:5001',
+  tourTypes: 'OK',
+  countries: 'OK',
+  states: 'OK',
+  fixedDepartures: 'OK'
+}
+Tour type: india
+Total fixed departures: 1
+Filtered fixed departures for india: [
+  {
+    _id: '698455f46dbfbb185f7c6d09',
+    title: 'Char Dham Yatra Ex Haridwar',
+    slug: 'char-dham-yatra-haridwar',
+    description: '<p>This Char Dham Yatra from Haridwar is designed for devotees who wish to visit Yamunotri, Gangotri, Kedarnath and Badrinath in a planned and affordable manner. The journey takes you through the scenic Himalayan landscapes of Uttarakhand while ensuring proper rest, temple visits and essential facilities. The tour includes accommodation, daily meals and transfers, making it suitable for families, groups and first-time <a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-600 underline cursor-pointer" href="https://paradiseyatra.com/fixed-departures/char-dham-yatra-haridwar">Char Dham</a> travellers.</p>',
+    shortDescription: '<p>A spiritually <strong>fulfilling</strong> Char Dham <em>Yatra</em> starting from <a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-600 underline cursor-pointer" href="https://paradiseyatra.com/fixed-departures/char-dham-yatra-haridwar">Haridwar</a>, covering all four sacred shrines with comfortable transport, meals and accommodation.</p>',
+    price: 23000,
+    discount: 0,
+    duration: '9N/10D',
+    destination: 'Uttarakhand',
+    country: 'India',
+    state: 'Uttarakhand',
+    tourType: 'india',
+    category: 'Fixed Departure',
+    departureDate: '2026-05-15T00:00:00.000Z',
+    returnDate: '2026-05-24T00:00:00.000Z',
+    availableSeats: 23,
+    totalSeats: 30,
+    images: [
+      'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1770280432/paradise-yatra/packages/fixed-departure/image-1770280430489-74678670_fhbnax.jpg'
+    ],
+    highlights: [
+      'Visit all four sacred dhams in one journey',
+      'Well-planned itinerary with temple darshan',
+      'Comfortable stays in economy and deluxe hotels',
+      'Daily breakfast and dinner included',
+      'Scenic Himalayan routes and holy river confluences',
+      'Stops at Mussoorie, Rishikesh and Mana Village'
+    ],
+    itinerary: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    inclusions: [
+      'Nine nights accommodation on twin sharing basis',
+      'Daily breakfast and dinner at hotels',
+      'All transfers and sightseeing by Tempo Traveller',
+      'AC in plains only',
+      'Hot and cold water facilities in hotels',
+      'Driver allowance, fuel, toll taxes and parking',
+      'All applicable state taxes and GST'
+    ],
+    exclusions: [
+      'Lunch during the tour',
+      'Personal expenses such as laundry and phone calls',
+      'Heater charges in hotels',
+      'Horse, palki or helicopter charges for Kedarnath',
+      'Entrance fees at monuments or attractions',
+      'Travel insurance',
+      'Any service not mentioned in inclusions'
+    ],
+    terms: [ 'demo ', 'demo2 ', 'demo 3' ],
+    rating: 0,
+    isActive: true,
+    isFeatured: false,
+    status: 'ongoing',
+    departures: [ [Object], [Object] ],
+    reviews: [],
+    createdAt: '2026-02-05T08:33:56.242Z',
+    updatedAt: '2026-02-14T11:27:39.353Z',
+    __v: 0,
+    discountedPrice: 23000,
+    seatsRemaining: 23,
+    bookingPercentage: 23.333333333333332,
+    id: '698455f46dbfbb185f7c6d09'
+  }
+]
+Tour type: international
+Total fixed departures: 1
+Filtered fixed departures for international: []
+Tour type data before organization: [
+  {
+    tourType: 'india',
+    items: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ]
+  },
+  {
+    tourType: 'international',
+    items: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  }
+]
+Tour type: india
+Total items: 44
+Items by state: {
+  'Himachal Pradesh': [
+    {
+      id: '68f20adc61892c2808b88474',
+      name: 'Shimla Manali Tour Package For Couple 2026',
+      location: 'Himachal Pradesh , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768890449/paradise-yatra/packages/popular-packages/image-1768890447261-687586920_kbxupa.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68f1f79061892c2808b863cb',
+      name: 'Kasol Tosh Kheerganga Adventure Trip',
+      location: 'Himachal Pradesh , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341494/paradise-yatra/packages/popular-packages/image-1767341490479-75525439_vymjkh.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68f1f2a061892c2808b8552e',
+      name: 'Dalhousie Khajjiar Getaway',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338665/paradise-yatra/packages/trending-destinations/image-1767338661524-872275889_kh5wif.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68f1eb8461892c2808b82d8c',
+      name: 'Shimla ΓÇô Manali ΓÇô Kasol Tour',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338746/paradise-yatra/packages/trending-destinations/image-1767338742540-941650211_mvhmdi.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68cce229912ef1d911ae00a0',
+      name: 'Shimla Nature, Culture & Adventure Tour Package',
+      location: 'Himachal Pradesh',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1769537972/paradise-yatra/packages/adventure-packages/image-1769537968868-782205819_zqx3dz.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c147f1d2d726f5256e21eb',
+      name: 'LehΓÇôLadakh',
+      location: 'Leh- Ladakh, Himachal',
+      image: 'http://localhost:5000/uploads/image-1757497272861-417685048.avif',
+      category: 'Beach Holidays',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b020754abc3abe1d8483b0',
+      name: 'Best Shimla Manali Kasol Tour Packages',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340948/paradise-yatra/packages/trending-destinations/image-1767340945502-106313461_zfvpzo.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad91834abc3abe1d83a2a4',
+      name: 'Shimla Manali Tour Package 5 Nights 6 Days',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341051/paradise-yatra/packages/trending-destinations/image-1767341046720-433608431_ztqejm.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Goa: [
+    {
+      id: '68ef91ca61892c2808b572fd',
+      name: 'Party & Nightlife Goa Package',
+      location: 'Goa , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341615/paradise-yatra/packages/popular-packages/image-1767341611270-439844787_zzlaea.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68edf99f61892c2808b3a461',
+      name: 'Goa Escape Beaches Bliss and Adventure',
+      location: 'Goa , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338840/paradise-yatra/packages/trending-destinations/image-1767338837886-137219197_zaixji.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68d12d72664b643214deed3d',
+      name: 'Adventure & Water Sports Goa Package 2026',
+      location: 'Goa',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768799935/paradise-yatra/packages/adventure-packages/image-1768799933515-74639279_eg9vlo.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68cbfe46912ef1d911ad952d',
+      name: 'Goa Pure Adventure Tour Package',
+      location: 'Goa',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829151428-809340560.avif',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Jammu and Kashmir': [
+    {
+      id: '68b54328a1e481d107d21f91',
+      name: 'Kashmir Tour Package 7 Nights 8 Days',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342362/paradise-yatra/packages/popular-packages/image-1767342358962-936495424_tiwe4r.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b53d09a1e481d107d21c48',
+      name: 'Kashmir Tour Package with Houseboat , Shikara Ride',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342428/paradise-yatra/packages/popular-packages/image-1767342424420-327257510_qxjhlo.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b53285a1e481d107d20976',
+      name: 'Kashmir Tour Packages with Houseboat Stay',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342469/paradise-yatra/packages/popular-packages/image-1767342466804-871352123_erj9gi.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b5287aa1e481d107d2009e',
+      name: 'Kashmir Tour Package 4 Nights 5 Days',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342548/paradise-yatra/packages/popular-packages/image-1767342544897-266374920_mxfwei.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b2a5aaa1e481d107d1b705',
+      name: 'Kashmir Holiday Tour ΓÇô Discover the Beauty of Himalayas',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342590/paradise-yatra/packages/popular-packages/image-1767342587059-500988019_rscwoc.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b93ad1e4c96c78e4038cf5',
+      name: 'Kashmir Tour Package with Dal Lake - Mountain Views',
+      location: 'Jammu Kashmir , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340511/paradise-yatra/packages/trending-destinations/image-1767340509067-25541819_sfripc.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Tamil Nadu': [
+    {
+      id: '68b1998fa1e481d107d1806c',
+      name: 'Pondicherry and Mahabalipuram Tour Package',
+      location: 'Chennai - Mahabalipuram - Pondicherry',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342695/paradise-yatra/packages/popular-packages/image-1767342692676-281211513_dinkho.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Kerala: [
+    {
+      id: '68ce9de0664b643214dc07c8',
+      name: 'Kerala Pure Adventure Tour',
+      location: 'Kerala , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768802161/paradise-yatra/packages/adventure-packages/image-1768802158266-279112309_whuzke.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68bea7192d38884b8436ffbb',
+      name: 'Kerala Tour Package ΓÇô Munnar, Thekkady & Alleppey',
+      location: 'Kerala , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340354/paradise-yatra/packages/trending-destinations/image-1767340351379-525755895_biwrka.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68badf99e237f1b77ab6b811',
+      name: 'Kerala Delight Tour Package',
+      location: 'Kerala, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340413/paradise-yatra/packages/trending-destinations/image-1767340410884-298581371_nv8nnn.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ba8782e4c96c78e403ea60',
+      name: 'Kerala Holiday Tour ΓÇô Munnar, Alleppey  Thekkady',
+      location: 'Kerala , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340460/paradise-yatra/packages/trending-destinations/image-1767340458570-27507639_b69kgy.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Rajasthan: [
+    {
+      id: '68ce9b57664b643214dc00ce',
+      name: 'Rajasthan Adventure Activities',
+      location: 'Rajasthan , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768817173/paradise-yatra/packages/adventure-packages/image-1768817167880-226634362_u9i3sd.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b13e814abc3abe1d84bd03',
+      name: 'Rajasthan Tour Package ΓÇô Explore the Land of Kings',
+      location: 'Rajasthan , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340888/paradise-yatra/packages/trending-destinations/image-1767340885483-830604577_x4pnaf.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Andaman and Nicobar Islands': [
+    {
+      id: '68cc01a9912ef1d911ad9c65',
+      name: 'Andaman & Nicobar Adventure Activities',
+      location: 'Andaman & Nicobar Island',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829099042-237487040.webp',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Sikkim: [
+    {
+      id: '68cbb6bb912ef1d911ac8f78',
+      name: 'Sikkim Highlands with Kalimpong',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338996/paradise-yatra/packages/trending-destinations/image-1767338993875-871874100_gfbjln.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ca6e61912ef1d911aab7b6',
+      name: 'Gangtok, Lachen, Lachung & Kalimpong Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339148/paradise-yatra/packages/trending-destinations/image-1767339144799-943437463_q4logs.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ca633c912ef1d911aa8be2',
+      name: 'Gangtok, Lachen, Lachung & Darjeeling Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339232/paradise-yatra/packages/trending-destinations/image-1767339229044-315252482_caecli.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c92d47912ef1d911a96c6e',
+      name: 'Gangtok, Lachen, Lachung & Pelling Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339547/paradise-yatra/packages/trending-destinations/image-1767339543361-540674203_aec63p.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c7ffba912ef1d911a843cb',
+      name: 'Kalimpong, Gangtok, Pelling & Darjeeling Tour',
+      location: 'Sikkim India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339606/paradise-yatra/packages/trending-destinations/image-1767339601781-106623538_cec2ss.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c55575c0fe6f5eac1da180',
+      name: 'Darjeeling  Kalimpong  Gangtok Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339705/paradise-yatra/packages/trending-destinations/image-1767339701030-69302380_s7crse.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c2c2322d38884b84391b17',
+      name: 'Gangtok Pelling Darjeeling Tour Package',
+      location: 'Sikkim, India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339844/paradise-yatra/packages/trending-destinations/image-1767339841012-364319961_g0xxqe.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c2996e2d38884b8438e122',
+      name: 'Darjeeling Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340167/paradise-yatra/packages/trending-destinations/image-1767340163887-409077304_v6c9ez.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c1766a2d38884b84386f53',
+      name: 'Gangtok Kalimpong Tour Package',
+      location: 'Sikkim , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340221/paradise-yatra/packages/trending-destinations/image-1767340217258-262476738_ihul6r.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c16faf2d38884b8438630e',
+      name: 'Kalimpong Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340314/paradise-yatra/packages/trending-destinations/image-1767340310607-851208204_pd2wa9.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b818d1e4c96c78e4033761',
+      name: 'Gangtok & Darjeeling Tour Package | Himalayan Gateway',
+      location: 'Sikkim, India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340570/paradise-yatra/packages/trending-destinations/image-1767340567283-317077674_eivdkg.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b14e414abc3abe1d84cbd4',
+      name: 'Gangtok Tour Package ΓÇô Explore Scenic Hills & Monasteries',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340669/paradise-yatra/packages/trending-destinations/image-1767340666007-859566515_ll2juc.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b143c04abc3abe1d84c166',
+      name: 'Complete Gangtok Pelling Darjeeling Holiday Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340749/paradise-yatra/packages/trending-destinations/image-1767340745752-237205826_wxf2h6.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad63f34abc3abe1d838e4a',
+      name: 'Gangtok & Darjeeling Tour Package 5 Nights 6 Days',
+      location: 'Sikkim, India  ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341093/paradise-yatra/packages/trending-destinations/image-1767341090892-263155281_ela6af.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Uttarakhand: [
+    {
+      id: '68c915c3912ef1d911a92a91',
+      name: 'Rishikesh Tour: Adventure & Thrills',
+      location: 'Rishikesh, India',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829210106-658211155.webp',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad98cd4abc3abe1d83aa9e',
+      name: 'Uttarakhand Tour Package 5 Nights 6 Days',
+      location: 'Uttarakhand , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340997/paradise-yatra/packages/trending-destinations/image-1767340994610-321473434_etbzsz.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '698455f46dbfbb185f7c6d09',
+      name: 'Char Dham Yatra Ex Haridwar',
+      location: 'Uttarakhand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1770280432/paradise-yatra/packages/fixed-departure/image-1770280430489-74678670_fhbnax.jpg',
+      category: 'Fixed Departure',
+      isTrending: false,
+      type: 'fixed-departure'
+    }
+  ],
+  Ladakh: [
+    {
+      id: '68c90e79912ef1d911a91436',
+      name: 'Leh-Ladakh Road Trip',
+      location: 'Ladakh , India',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829240671-462073096.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ]
+}
+India tour normalized states: {
+  'Himachal Pradesh': [
+    {
+      id: '68f20adc61892c2808b88474',
+      name: 'Shimla Manali Tour Package For Couple 2026',
+      location: 'Himachal Pradesh , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768890449/paradise-yatra/packages/popular-packages/image-1768890447261-687586920_kbxupa.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68f1f79061892c2808b863cb',
+      name: 'Kasol Tosh Kheerganga Adventure Trip',
+      location: 'Himachal Pradesh , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341494/paradise-yatra/packages/popular-packages/image-1767341490479-75525439_vymjkh.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68f1f2a061892c2808b8552e',
+      name: 'Dalhousie Khajjiar Getaway',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338665/paradise-yatra/packages/trending-destinations/image-1767338661524-872275889_kh5wif.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68f1eb8461892c2808b82d8c',
+      name: 'Shimla ΓÇô Manali ΓÇô Kasol Tour',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338746/paradise-yatra/packages/trending-destinations/image-1767338742540-941650211_mvhmdi.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68cce229912ef1d911ae00a0',
+      name: 'Shimla Nature, Culture & Adventure Tour Package',
+      location: 'Himachal Pradesh',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1769537972/paradise-yatra/packages/adventure-packages/image-1769537968868-782205819_zqx3dz.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c147f1d2d726f5256e21eb',
+      name: 'LehΓÇôLadakh',
+      location: 'Leh- Ladakh, Himachal',
+      image: 'http://localhost:5000/uploads/image-1757497272861-417685048.avif',
+      category: 'Beach Holidays',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b020754abc3abe1d8483b0',
+      name: 'Best Shimla Manali Kasol Tour Packages',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340948/paradise-yatra/packages/trending-destinations/image-1767340945502-106313461_zfvpzo.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad91834abc3abe1d83a2a4',
+      name: 'Shimla Manali Tour Package 5 Nights 6 Days',
+      location: 'Himachal Pradesh , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341051/paradise-yatra/packages/trending-destinations/image-1767341046720-433608431_ztqejm.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Goa: [
+    {
+      id: '68ef91ca61892c2808b572fd',
+      name: 'Party & Nightlife Goa Package',
+      location: 'Goa , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341615/paradise-yatra/packages/popular-packages/image-1767341611270-439844787_zzlaea.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68edf99f61892c2808b3a461',
+      name: 'Goa Escape Beaches Bliss and Adventure',
+      location: 'Goa , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338840/paradise-yatra/packages/trending-destinations/image-1767338837886-137219197_zaixji.jpg',
+      category: 'Trending Destinations',
+      isTrending: true,
+      type: 'package'
+    },
+    {
+      id: '68d12d72664b643214deed3d',
+      name: 'Adventure & Water Sports Goa Package 2026',
+      location: 'Goa',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768799935/paradise-yatra/packages/adventure-packages/image-1768799933515-74639279_eg9vlo.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68cbfe46912ef1d911ad952d',
+      name: 'Goa Pure Adventure Tour Package',
+      location: 'Goa',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829151428-809340560.avif',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Jammu & Kashmir': [
+    {
+      id: '68b54328a1e481d107d21f91',
+      name: 'Kashmir Tour Package 7 Nights 8 Days',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342362/paradise-yatra/packages/popular-packages/image-1767342358962-936495424_tiwe4r.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b53d09a1e481d107d21c48',
+      name: 'Kashmir Tour Package with Houseboat , Shikara Ride',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342428/paradise-yatra/packages/popular-packages/image-1767342424420-327257510_qxjhlo.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b53285a1e481d107d20976',
+      name: 'Kashmir Tour Packages with Houseboat Stay',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342469/paradise-yatra/packages/popular-packages/image-1767342466804-871352123_erj9gi.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b5287aa1e481d107d2009e',
+      name: 'Kashmir Tour Package 4 Nights 5 Days',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342548/paradise-yatra/packages/popular-packages/image-1767342544897-266374920_mxfwei.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b2a5aaa1e481d107d1b705',
+      name: 'Kashmir Holiday Tour ΓÇô Discover the Beauty of Himalayas',
+      location: 'Jammu & Kashmir , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342590/paradise-yatra/packages/popular-packages/image-1767342587059-500988019_rscwoc.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b93ad1e4c96c78e4038cf5',
+      name: 'Kashmir Tour Package with Dal Lake - Mountain Views',
+      location: 'Jammu Kashmir , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340511/paradise-yatra/packages/trending-destinations/image-1767340509067-25541819_sfripc.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Tamil Nadu': [
+    {
+      id: '68b1998fa1e481d107d1806c',
+      name: 'Pondicherry and Mahabalipuram Tour Package',
+      location: 'Chennai - Mahabalipuram - Pondicherry',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342695/paradise-yatra/packages/popular-packages/image-1767342692676-281211513_dinkho.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Kerala: [
+    {
+      id: '68ce9de0664b643214dc07c8',
+      name: 'Kerala Pure Adventure Tour',
+      location: 'Kerala , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768802161/paradise-yatra/packages/adventure-packages/image-1768802158266-279112309_whuzke.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68bea7192d38884b8436ffbb',
+      name: 'Kerala Tour Package ΓÇô Munnar, Thekkady & Alleppey',
+      location: 'Kerala , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340354/paradise-yatra/packages/trending-destinations/image-1767340351379-525755895_biwrka.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68badf99e237f1b77ab6b811',
+      name: 'Kerala Delight Tour Package',
+      location: 'Kerala, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340413/paradise-yatra/packages/trending-destinations/image-1767340410884-298581371_nv8nnn.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ba8782e4c96c78e403ea60',
+      name: 'Kerala Holiday Tour ΓÇô Munnar, Alleppey  Thekkady',
+      location: 'Kerala , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340460/paradise-yatra/packages/trending-destinations/image-1767340458570-27507639_b69kgy.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Rajasthan: [
+    {
+      id: '68ce9b57664b643214dc00ce',
+      name: 'Rajasthan Adventure Activities',
+      location: 'Rajasthan , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768817173/paradise-yatra/packages/adventure-packages/image-1768817167880-226634362_u9i3sd.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b13e814abc3abe1d84bd03',
+      name: 'Rajasthan Tour Package ΓÇô Explore the Land of Kings',
+      location: 'Rajasthan , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340888/paradise-yatra/packages/trending-destinations/image-1767340885483-830604577_x4pnaf.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  'Andaman and Nicobar Islands': [
+    {
+      id: '68cc01a9912ef1d911ad9c65',
+      name: 'Andaman & Nicobar Adventure Activities',
+      location: 'Andaman & Nicobar Island',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829099042-237487040.webp',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Sikkim: [
+    {
+      id: '68cbb6bb912ef1d911ac8f78',
+      name: 'Sikkim Highlands with Kalimpong',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767338996/paradise-yatra/packages/trending-destinations/image-1767338993875-871874100_gfbjln.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ca6e61912ef1d911aab7b6',
+      name: 'Gangtok, Lachen, Lachung & Kalimpong Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339148/paradise-yatra/packages/trending-destinations/image-1767339144799-943437463_q4logs.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ca633c912ef1d911aa8be2',
+      name: 'Gangtok, Lachen, Lachung & Darjeeling Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339232/paradise-yatra/packages/trending-destinations/image-1767339229044-315252482_caecli.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c92d47912ef1d911a96c6e',
+      name: 'Gangtok, Lachen, Lachung & Pelling Tour',
+      location: 'Sikkim, India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339547/paradise-yatra/packages/trending-destinations/image-1767339543361-540674203_aec63p.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c7ffba912ef1d911a843cb',
+      name: 'Kalimpong, Gangtok, Pelling & Darjeeling Tour',
+      location: 'Sikkim India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339606/paradise-yatra/packages/trending-destinations/image-1767339601781-106623538_cec2ss.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c55575c0fe6f5eac1da180',
+      name: 'Darjeeling  Kalimpong  Gangtok Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339705/paradise-yatra/packages/trending-destinations/image-1767339701030-69302380_s7crse.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c2c2322d38884b84391b17',
+      name: 'Gangtok Pelling Darjeeling Tour Package',
+      location: 'Sikkim, India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767339844/paradise-yatra/packages/trending-destinations/image-1767339841012-364319961_g0xxqe.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c2996e2d38884b8438e122',
+      name: 'Darjeeling Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340167/paradise-yatra/packages/trending-destinations/image-1767340163887-409077304_v6c9ez.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c1766a2d38884b84386f53',
+      name: 'Gangtok Kalimpong Tour Package',
+      location: 'Sikkim , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340221/paradise-yatra/packages/trending-destinations/image-1767340217258-262476738_ihul6r.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c16faf2d38884b8438630e',
+      name: 'Kalimpong Tour Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340314/paradise-yatra/packages/trending-destinations/image-1767340310607-851208204_pd2wa9.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b818d1e4c96c78e4033761',
+      name: 'Gangtok & Darjeeling Tour Package | Himalayan Gateway',
+      location: 'Sikkim, India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340570/paradise-yatra/packages/trending-destinations/image-1767340567283-317077674_eivdkg.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b14e414abc3abe1d84cbd4',
+      name: 'Gangtok Tour Package ΓÇô Explore Scenic Hills & Monasteries',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340669/paradise-yatra/packages/trending-destinations/image-1767340666007-859566515_ll2juc.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68b143c04abc3abe1d84c166',
+      name: 'Complete Gangtok Pelling Darjeeling Holiday Package',
+      location: 'Sikkim , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340749/paradise-yatra/packages/trending-destinations/image-1767340745752-237205826_wxf2h6.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad63f34abc3abe1d838e4a',
+      name: 'Gangtok & Darjeeling Tour Package 5 Nights 6 Days',
+      location: 'Sikkim, India  ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341093/paradise-yatra/packages/trending-destinations/image-1767341090892-263155281_ela6af.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    }
+  ],
+  Uttarakhand: [
+    {
+      id: '68c915c3912ef1d911a92a91',
+      name: 'Rishikesh Tour: Adventure & Thrills',
+      location: 'Rishikesh, India',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829210106-658211155.webp',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68ad98cd4abc3abe1d83aa9e',
+      name: 'Uttarakhand Tour Package 5 Nights 6 Days',
+      location: 'Uttarakhand , India ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767340997/paradise-yatra/packages/trending-destinations/image-1767340994610-321473434_etbzsz.jpg',
+      category: 'Trending Destinations',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '698455f46dbfbb185f7c6d09',
+      name: 'Char Dham Yatra Ex Haridwar',
+      location: 'Uttarakhand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1770280432/paradise-yatra/packages/fixed-departure/image-1770280430489-74678670_fhbnax.jpg',
+      category: 'Fixed Departure',
+      isTrending: false,
+      type: 'fixed-departure'
+    }
+  ],
+  Ladakh: [
+    {
+      id: '68c90e79912ef1d911a91436',
+      name: 'Leh-Ladakh Road Trip',
+      location: 'Ladakh , India',
+      image: 'https://backendparadise-backend.glwcvg.easypanel.host/uploads/image-1759829240671-462073096.jpg',
+      category: 'Adventure Tours',
+      isTrending: false,
+      type: 'package'
+    }
+  ]
+}
+India tour sorted states: [
+  'Sikkim',
+  'Himachal Pradesh',
+  'Jammu & Kashmir',
+  'Goa',
+  'Kerala',
+  'Uttarakhand',
+  'Rajasthan',
+  'Tamil Nadu',
+  'Andaman and Nicobar Islands',
+  'Ladakh'
+]
+Tour type: international
+Total items: 15
+Items by state: {
+  Krabi: [
+    {
+      id: '6900b9ef61892c2808c98ac2',
+      name: 'Phuket Krabi 4 Nights 5 Days Tour Package',
+      location: 'Thailand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341342/paradise-yatra/packages/popular-packages/image-1767341338494-311357902_gq7cfm.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68e908f261892c2808ae9780',
+      name: '5 Days Krabi & Phuket Tour',
+      location: 'Thailand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341909/paradise-yatra/packages/popular-packages/image-1767341906094-207947941_hw1agm.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68e9044c61892c2808ae881d',
+      name: 'Bangkok & Pattaya  in Just 6 Days',
+      location: 'Thailand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342007/paradise-yatra/packages/popular-packages/image-1767342004365-109955630_l3ctbp.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Pattaya: [
+    {
+      id: '690078c161892c2808c7fe6e',
+      name: 'Pattaya & Bangkok Getaway',
+      location: 'Pattaya & Bangkok , India',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341398/paradise-yatra/packages/popular-packages/image-1767341395626-260941303_sx2owb.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68e9e5cc61892c2808af26cb',
+      name: 'Thailand Delight Tour Package',
+      location: 'Thailand',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767341712/paradise-yatra/packages/popular-packages/image-1767341708834-528879511_lk76ir.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Bali: [
+    {
+      id: '68e8a42061892c2808ade710',
+      name: 'Bali Bliss Escape Package',
+      location: 'Bali, Indonesia',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342073/paradise-yatra/packages/popular-packages/image-1767342069553-85111289_aa23g3.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68bc15be2d38884b84356ef4',
+      name: 'Bali Escape Tour Package',
+      location: 'Bali, Indonesia',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342294/paradise-yatra/packages/popular-packages/image-1767342291993-294930145_tiw8e7.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68b16429365d949376183383',
+      name: 'Bali Tour Package',
+      location: 'Bali , Indonesia',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342741/paradise-yatra/packages/popular-packages/image-1767342737978-749569785_xvfsdx.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Dubai: [
+    {
+      id: '68ca9e39912ef1d911ab5910',
+      name: 'Dubai Tour Package',
+      location: 'Dubai , UAE',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342140/paradise-yatra/packages/popular-packages/image-1767342137427-688647237_hu7p21.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    }
+  ],
+  Other: [
+    {
+      id: '68b2a070a1e481d107d1adf8',
+      name: 'Malaysia Tour Package',
+      location: 'Malaysia',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1767342642/paradise-yatra/packages/popular-packages/image-1767342636781-879083532_krsqod.jpg',
+      category: 'Popular Packages',
+      isTrending: false,
+      type: 'destination'
+    },
+    {
+      id: '68d67add70b612ca74fc2a33',
+      name: 'Luxury Maldives Honeymoon Package',
+      location: 'Maldives ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768652430/paradise-yatra/packages/premium-packages/image-1768652427473-825391539_p983iy.jpg',
+      category: 'Premium Packages',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c80257912ef1d911a84a3d',
+      name: 'Luxury Egypt Tour',
+      location: 'Egypt ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768652372/paradise-yatra/packages/premium-packages/image-1768652369710-722051408_hdlwnw.jpg',
+      category: 'Premium Packages',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c7fd6a912ef1d911a83e93',
+      name: 'Bali Luxury Tour',
+      location: 'Bali ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768652520/paradise-yatra/packages/premium-packages/image-1768652517189-275428197_qlpopp.jpg',
+      category: 'Premium Packages',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c7fb39912ef1d911a83aaa',
+      name: 'Kenya Luxury Safari',
+      location: 'Kenya ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768653335/paradise-yatra/packages/premium-packages/image-1768653333298-805014991_s8uqlx.jpg',
+      category: 'Premium Packages',
+      isTrending: false,
+      type: 'package'
+    },
+    {
+      id: '68c15a312d38884b84383e48',
+      name: 'Singapore Cruise Tour',
+      location: 'Singapore ',
+      image: 'https://res.cloudinary.com/dwuwpxu0y/image/upload/v1768654831/paradise-yatra/packages/premium-packages/image-1768654828869-136983735_iapeah.jpg',
+      category: 'Premium Packages',
+      isTrending: false,
+      type: 'package'
+    }
+  ]
+}
+International tour countries: [
+  { name: 'Thailand', states: [ [Object] ] },
+  { name: 'India', states: [ [Object] ] },
+  { name: 'Indonesia', states: [ [Object] ] },
+  { name: 'United Arab Emirates', states: [ [Object] ] },
+  { name: 'Malaysia', states: [ [Object] ] },
+  { name: 'Maldives', states: [ [Object] ] },
+  { name: 'Egypt', states: [ [Object] ] },
+  { name: 'Kenya', states: [ [Object] ] },
+  { name: 'Singapore', states: [ [Object] ] }
+]
+International tour itemsByCountry: {
+  Thailand: { Thailand: [ [Object], [Object], [Object], [Object] ] },
+  India: { 'Pattaya & Bangkok': [ [Object] ] },
+  Indonesia: { Bali: [ [Object], [Object], [Object], [Object] ] },
+  'United Arab Emirates': { Dubai: [ [Object] ] },
+  Malaysia: { Malaysia: [ [Object] ] },
+  Maldives: { Maldives: [ [Object] ] },
+  Egypt: { Egypt: [ [Object] ] },
+  Kenya: { Kenya: [ [Object] ] },
+  Singapore: { Singapore: [ [Object] ] }
+}
+Final organized data: [
+  {
+    tourType: 'india',
+    states: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    tourType: 'international',
+    countries: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  }
+]
+Γ£ô Generating static pages using 11 workers (71/71) in 8.5s
+  Finalizing page optimization ...
+
+Route (app)                                   Revalidate  Expire
+Γöî Γùï /                                                 1m      1y
+Γö£ Γùï /_not-found
+Γö£ Γùï /about
+Γö£ Γùï /admin
+Γö£ Γùï /admin/login
+Γö£ ╞Æ /api/admin/users
+Γö£ ╞Æ /api/adventure-packages
+Γö£ ╞Æ /api/adventure-packages/[id]
+Γö£ ╞Æ /api/all-packages
+Γö£ ╞Æ /api/all-packages/[id]
+Γö£ ╞Æ /api/all-packages/export
+Γö£ ╞Æ /api/auth/google-login
+Γö£ ╞Æ /api/auth/login
+Γö£ ╞Æ /api/auth/profile
+Γö£ ╞Æ /api/auth/register
+Γö£ ╞Æ /api/auth/send-otp
+Γö£ ╞Æ /api/auth/verify-otp
+Γö£ ╞Æ /api/blogs
+Γö£ ╞Æ /api/blogs/[id]
+Γö£ ╞Æ /api/cta
+Γö£ ╞Æ /api/cta/[id]
+Γö£ ╞Æ /api/destination-faqs
+Γö£ ╞Æ /api/destination-faqs/[id]
+Γö£ ╞Æ /api/destination-faqs/admin/destinations
+Γö£ ╞Æ /api/destinations
+Γö£ ╞Æ /api/destinations/[id]
+Γö£ ╞Æ /api/destinations/countries
+Γö£ ╞Æ /api/destinations/slug/[slug]
+Γö£ ╞Æ /api/destinations/states
+Γö£ ╞Æ /api/destinations/suggest
+Γö£ ╞Æ /api/destinations/trending
+Γö£ ╞Æ /api/faq
+Γö£ ╞Æ /api/faq/[id]
+Γö£ ╞Æ /api/faq/admin/locations
+Γö£ ╞Æ /api/faq/admin/stats
+Γö£ ╞Æ /api/faq/reorder
+Γö£ ╞Æ /api/fixed-departures
+Γö£ ╞Æ /api/fixed-departures/[id]
+Γö£ ╞Æ /api/fixed-departures/create
+Γö£ ╞Æ /api/fixed-departures/navigation
+Γö£ ╞Æ /api/fixed-departures/slug/[slug]
+Γö£ ╞Æ /api/fixed-departures/suggest
+Γö£ ╞Æ /api/footer
+Γö£ ╞Æ /api/footer/admin
+Γö£ ╞Æ /api/footer/admin/[id]
+Γö£ ╞Æ /api/footer/admin/[id]/toggle-status
+Γö£ ╞Æ /api/footer/admin/all
+Γö£ ╞Æ /api/header
+Γö£ ╞Æ /api/header/[id]
+Γö£ ╞Æ /api/header/admin/all
+Γö£ ╞Æ /api/header/all
+Γö£ ╞Æ /api/health
+Γö£ ╞Æ /api/hero
+Γö£ ╞Æ /api/hero/[id]
+Γö£ ╞Æ /api/holiday-types
+Γö£ ╞Æ /api/holiday-types/[id]
+Γö£ ╞Æ /api/holiday-types/[id]/order
+Γö£ ╞Æ /api/holiday-types/[id]/toggle-featured
+Γö£ ╞Æ /api/holiday-types/[id]/toggle-status
+Γö£ ╞Æ /api/holiday-types/admin/all
+Γö£ ╞Æ /api/holiday-types/slug/[slug]
+Γö£ ╞Æ /api/holiday-types/suggest
+Γö£ ╞Æ /api/lead-capture
+Γö£ ╞Æ /api/leads
+Γö£ ╞Æ /api/leads/[id]
+Γö£ ╞Æ /api/leads/[id]/status
+Γö£ ╞Æ /api/locations/countries
+Γö£ ╞Æ /api/locations/states/[countryIso2]
+Γö£ ╞Æ /api/packages
+Γö£ ╞Æ /api/packages/[id]
+Γö£ ╞Æ /api/packages/category/[category]
+Γö£ ╞Æ /api/packages/slug/[slug]
+Γö£ ╞Æ /api/packages/suggest
+Γö£ ╞Æ /api/payments/razorpay/create-order
+Γö£ ╞Æ /api/payments/razorpay/mark-failed
+Γö£ ╞Æ /api/payments/razorpay/refund
+Γö£ ╞Æ /api/payments/razorpay/verify
+Γö£ ╞Æ /api/payments/razorpay/webhook
+Γö£ ╞Æ /api/proxy-image
+Γö£ ╞Æ /api/purchases/my
+Γö£ ╞Æ /api/seo/blog/[id]
+Γö£ ╞Æ /api/seo/blogs
+Γö£ ╞Æ /api/seo/homepage
+Γö£ ╞Æ /api/seo/packages-category
+Γö£ ╞Æ /api/seo/packages-dynamic
+Γö£ ╞Æ /api/seo/packages-tourtype
+Γö£ ╞Æ /api/subscribe
+Γö£ ╞Æ /api/tags
+Γö£ ╞Æ /api/tags/[id]
+Γö£ ╞Æ /api/tags/slug/[slug]
+Γö£ ╞Æ /api/testimonials
+Γö£ ╞Æ /api/testimonials/[id]
+Γö£ Γùï /api/tour-types                                   1m      1y
+Γö£ ╞Æ /api/upload/image
+Γö£ ╞Æ /api/uploaded-images/[...path]
+Γö£ ╞Æ /api/wishlist
+Γö£ Γùï /blog
+Γö£ ╞Æ /blog/[slug]
+Γö£ Γùï /cancellation-and-refund-policy
+Γö£ Γùï /checkout
+Γö£ Γùï /coming-soon
+Γö£ Γùï /contact
+Γö£ Γùï /destinations
+Γö£ ╞Æ /destinations/[slug]
+Γö£ ╞Æ /fixed-departures
+Γö£ ╞Æ /fixed-departures/[slug]
+Γö£ Γùï /holiday-types
+Γö£ ╞Æ /holiday-types/[slug]
+Γö£ Γùï /itinerary
+Γö£ ╞Æ /itinerary/[slug]
+Γö£ Γùï /login
+Γö£ Γùï /package
+Γö£ ╞Æ /package/[slug]
+Γö£ ╞Æ /package/india/[state]
+Γö£ ╞Æ /package/international/[country]
+Γö£ ╞Æ /package/theme/[slug]
+Γö£ Γùï /payment
+Γö£ Γùï /privacy-policy
+Γö£ Γùï /profile
+Γö£ Γùï /signup
+Γö£ Γùï /sitemap.xml                                     30m      1y
+Γö£ Γùï /terms-and-conditions
+Γö£ Γùï /terms-of-service
+Γö£ Γùï /why-choose-us
+Γöö Γùï /wishlist
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

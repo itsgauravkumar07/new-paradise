@@ -1,0 +1,11 @@
+import { buildStaticMetadata } from "@/lib/seo";
+
+export const metadata = buildStaticMetadata("/checkout");
+
+export default function CheckoutLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return children;
+}
